@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Rock+Salt&family=Rubik&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #f1e8e8;
+}
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color:lightslategray;
+    font-size: 35px;
+    
+}
+
+
+
+.subtitulo{
+    color: lightslategray;
+    font-size: 30px;
+}
+
+.tarjetas, .tarjetas-ataques {
+    display: flex;
+    gap: 10px;
+  
+}
+
+.Sr {
+    height: 110px;
+    width: 140px;
+    border-radius: 20px;
+      
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.Cb{
+    height: 110px;
+    width: 140px;
+    border-radius: 20px;
+      
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.DK {
+    height: 110px;
+    width: 160px;
+    border-radius: 20px;
+      
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.SCC{
+    height: 58px;
+    width: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center
+}
+
+.SCD{
+    height: 58px;
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center
+
+}
+
+.SCS{
+    height: 56px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center 
+}
+
+.tarjeta-unibio{
+    color: #E8E8E8;
+    width: 160px;
+    height: 230px;
+    background-color: #000;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 1px solid lightslategray;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.boton-seleccionar {
+    width: 120px;
+    height: 50px;
+    font-family: 'PT Serif', serif;
+    color: #950101;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 40px 20px 40px 20px;
+    border: 1px solid lightslategray;
+    gap: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    background: transparent;
+    justify-content: center;
+    justify-items: center;
+    align-items: center
+   
+}
+
+
+input{
+    display: none;
+    
+}
+
+input:checked + label {
+background-color: #3D0000;
+}
+
+#seleccionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+.botonAtaque{
+    color: #FF0000;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+
+}
+#mensajes{
+    color: #3F3351;
+    width: 280px;
+    height: auto;
+    background: grey;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'PT Serif', serif;
+}
+
+#boton-reiniciar{
+    border: transparent;
+    color: black;
+    
+    font-family: 'PT Serif', serif;
+}
+.ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    
+}
+
+.ataques-jugador, .ataques-enemigo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 67px;
+    height: 37px;
+}
+
+@media (max-width: 360px){
+    .tarjetas, .tarjetas-ataques{
+        flex-direction: column;
+    }
+        
+}

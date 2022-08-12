@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unibio!</title>
+        <link rel="stylesheet" href="./Apariencia.css">
+        
+
+    </head>
+    <body>
+        
+        <script src="./js/Unibio.js"></script>
+        
+        <section id='seleccionar-mascota'>
+            <h1  class="titulo">UNIBIO 🎮</h1>
+            <h2 class="subtitulo">Elige a tu Luchador:</h2>
+
+            <div class="tarjetas"> 
+
+
+                <input type='radio' name='mascota' id='Posei'/>
+
+                <label class="tarjeta-unibio" for="Posei"> <img class='Sr' src="./i/Posei.png" alt="Sr Rana"><p class="SCS">Sr Rana</p> 
+                </label>
+
+                <input type='radio' name='mascota' id='Gai'/>
+                <label class="tarjeta-unibio" for="Gai"> <img class='DK' src="./i/don-key-kong.png" alt="Don Key Kong"><p class="SCD">Don Key kong</p> 
+                </label>
+                
+
+                <input type='radio' name='mascota' id='Pyri'/>
+                <label class="tarjeta-unibio" for="Pyri"><img class="Cb" src="./i/Cheemy Balboa.png" alt="Cheemy Balboa">  <p class="SCC"> Cheemy Balboa</p>
+                </label>
+                
+            </div>    
+
+          
+            <button class="boton-seleccionar" id="mascota">Seleccionar</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+            <h1  class="titulo">UNIBIO 🔥💧🌎</h1>
+
+            <h2 class="subtitulo">Elige tu Ataque:</h2>
+
+            
+
+            <div class="tarjetas-ataques">
+                <button id="boton-fuego" class="botonAtaque"> Fuego🔥</button>
+                <button id="boton-agua" class="botonAtaque"> Agua💧</button>
+                <button id="boton-tierra" class="botonAtaque">Tierra🌎</button>
+            </div>
+
+            
+            <div id='mensajes'>
+                    <p id="resultado">Que el azar estè de tu lado</p>
+                <section id="Reiniciar">
+                        <button id="boton-reiniciar">Reiniciar</button>
+                </section>
+            </div>
+
+                
+                
+
+
+
+                
+            
+
+            <div class="ataques">
+                <div class="ataques-jugador">
+                    <p id='vidas-jugador'>3</p>
+                    <p id='mascota-jugador'></p>
+                    <div id="ataque-del-jugador"></div>
+                    
+                </div>
+                <div class="ataques-enemigo">
+                    <p id='vidas-enemigo'>3</p>
+                    <p id='mascota-enemigo '></p>
+                    <div id="ataque-del-enemigo"></div>
+
+                </div>
+
+                
+
+            </div>
+        </section>
+        
+         
+    </body>
+</html>
